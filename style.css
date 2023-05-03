@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: red
+}
+
+.container {
+    background-color: lightgreen;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 0 20px;
+    width: 420px;
+    box-shadow: 5px 15px 30px rgba(128, 128, 128, 0.384);
+}
+
+label {
+    font-size: larger;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: large;
+    border-radius: 15px;
+}
+
+input:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.btns {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+button {
+    width: 50%;
+    padding: 9px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+button:hover {
+    color: green;
+}
+
+span {
+    font-weight: bold;
+
+}
+
+ul {
+    font-size: large;
+
+
+}
+
+/* li::marker{
+    color:grey;
+} */
